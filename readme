@@ -1,1 +1,36 @@
 Infant brain mri segmentation 
+
+Abstract—The growth of the brain from infantile to adoles-
+cence is very complex. It spans for a very long time, so there are
+
+many processes such as myelination, migration, neural induction,
+and many other time taking processes to study the development
+of the brain, so there is a need for some automatic tools so
+that it becomes easy in studying the development of Brain.
+Developing tools for grownup humans is not so tricky as the
+brain is already grown, but for six month’s child still is in the
+growing stage, there is the difficulty; nevertheless, developing
+tools for all ages is required. Segmentation of MRI images of
+the brain is crucial to understand the growth patterns of the
+brain. The brain consists of mainly three parts white matter,
+gray matter, and cerebrospinal fluid. So, by quantitative tools, if
+the brain MRI images segmented into these three different parts,
+it will be a great boon for the medical community to deal with
+the brain. Although there are some tools for segmenting adult
+MRI images but for 6-month child segmentation of the brain
+becomes challenging as the white matter, and gray matter is
+almost undistinguishable due to the brain development process.
+
+Segmentation of brain MRI images can identify specific pat-
+terns that contribute to healthy brain development. The data set
+
+of this problem statement had taken from the iseg-2019 challenge
+conducted by MICCAI.
+Segmentation of MRI into white matter, gray matter, and
+cerebrospinal fluid need expert doctors. Advancement in
+computer vision techniques can be used to replace present
+time-consuming work.This paper proposes a deep learning
+model for image segmentation using U-net. Various experiments
+had done with popular deep learning models like U-net, dense
+net, and attention net.U-net performed better than all other
+models and resulted in an accuracy of 85.64.
